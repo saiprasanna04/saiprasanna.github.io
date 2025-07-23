@@ -3,6 +3,9 @@ layout: default
 title: Gutta Sai Prasanna
 ---
 
+<img src="profile.jpg" alt="Profile Picture" width="180" style="border-radius: 50%;">
+
+
 # 👨‍💻 About Me
 
 Motivated and detail-oriented Computer Science Engineering student (AI & DS) with strong communication, problem-solving, and teamwork skills. Passionate about building scalable web and AI-driven applications. Eager to gain hands-on experience in a dynamic IT environment.
