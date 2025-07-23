@@ -81,4 +81,4 @@ Motivated and detail-oriented Computer Science Engineering student (AI & DS) wit
 - 📧 Email: [guttasaiprasanna7485@gmail.com](mailto:guttasaiprasanna7485@gmail.com)  
 - 🔗 [LinkedIn](https://www.linkedin.com/in/saiprasannagutta7485)  
 - 💻 [GitHub](https://github.com/saiprasanna04)
-
+- 📄 [Download My Resume](resume.pdf)
