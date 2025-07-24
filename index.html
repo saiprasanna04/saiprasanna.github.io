@@ -15,6 +15,7 @@
       margin: 0;
       padding: 0;
     }
+       
     nav {
       display: flex;
       justify-content: space-between;
@@ -203,7 +204,7 @@
 </head>
 <body>
   <nav>
-    <div><strong>Portfolio</strong></div>
+    <div class="logo-badge">GSP</div>
     <div>
       <a href="#about">About</a>
       <a href="#skills">Skills</a>
@@ -221,7 +222,7 @@
         <a href="resume.pdf" target="_blank" class="resume-btn"><i class="fa fa-eye"></i> View Resume</a>
       </div>
       <div class="col-md-4 text-end">
-        <img src="profile.jpg" alt="Profile" class="profile-photo" />
+        <img src="self.jpg" alt="Profile" class="profile-photo" />
       </div>
     </div>
   </header>
@@ -231,38 +232,23 @@
  &nbsp;
   <section id="skills" class="container">
      <div class="skills-modern">
-      <h3>Skill Set</h3>
+      <h2  style="text-align: center;">Skill Set</h2>
       <div class="skill-row">
+
         <div class="skill-item">
-          <div class="skill-label"><span>Python</span><span>90%</span></div>
+          <div class="skill-label"><span><h4>Programming Languages</h4><br>Python,SQL,Java</span><span>90%</span></div>
           <div class="progress"><div class="progress-bar" style="width: 90%"></div></div>
         </div>
         <div class="skill-item">
-          <div class="skill-label"><span>SQL</span><span>70%</span></div>
+          <div class="skill-label"><span><h4>Web Development</h4><br>HTML,CSS,Bootstrap</span><span>70%</span></div>
           <div class="progress"><div class="progress-bar" style="width: 70%"></div></div>
         </div>
         <div class="skill-item">
-          <div class="skill-label"><span>HTML,CSS</span><span>85%</span></div>
-          <div class="progress"><div class="progress-bar" style="width: 85%"></div></div>
-        </div>
-        <div class="skill-item">
-          <div class="skill-label"><span>PowerBI</span><span>60%</span></div>
-          <div class="progress"><div class="progress-bar" style="width: 60%"></div></div>
-        </div>
-        <div class="skill-item">
-          <div class="skill-label"><span>Excel</span><span>80%</span></div>
-          <div class="progress"><div class="progress-bar" style="width: 80%"></div></div>
-        </div>
-        <div class="skill-item">
-          <div class="skill-label"><span>Java</span><span>72%</span></div>
-          <div class="progress"><div class="progress-bar" style="width: 72%"></div></div>
-        </div>
-        <div class="skill-item">
-          <div class="skill-label"><span>Machine Learning</span><span>80%</span></div>
+          <div class="skill-label"><span><h4>Data Science</h4><br>ML, Data Analysis, Data Visualization</span><span>90%</span></div>
           <div class="progress"><div class="progress-bar" style="width: 90%"></div></div>
         </div>
         <div class="skill-item">
-          <div class="skill-label"><span>Data Visualization</span><span>60%</span></div>
+          <div class="skill-label"><span><h4>Tools&Platforms</h4><br>PowerBI,Excel</span><span>60%</span></div>
           <div class="progress"><div class="progress-bar" style="width: 60%"></div></div>
         </div>
       </div>
@@ -285,21 +271,21 @@
       <div class="col-md-6">
         <div class="card p-4">
           <h4>Real Estate Price Prediction</h4>
-          <p>Used regression models and feature engineering techniques to predict housing prices based on various parameters.</p>
+          <p>Used regression models and feature engineering techniques to predict housing prices based on features such as location, square footage, number of rooms.</p>
           <a href="#" class="btn btn-outline-info"><i class="fa fa-eye"></i> View Project</a>
         </div>
       </div>
       <div class="col-md-6">
         <div class="card p-4">
           <h4>Multi-Agent Healthcare ML System</h4>
-          <p>Developed ML-based predictive models using healthcare datasets to diagnose diseases like Parkinson’s and heart conditions.</p>
+          <p>Developed ML-based predictive models using healthcare datasets  to diagnose diseases like Parkinson’s and heart conditions.Utilized classification algorithms, medical datasets, and evaluation metrics.</p>
           <a href="#" class="btn btn-outline-info"><i class="fa fa-eye"></i> View Project</a>
         </div>
       </div>
       <div class="col-md-6">
         <div class="card p-4">
-          <h4>To-Do List Web Application</h4>
-          <p>A task management app with responsive UI built using HTML, CSS, Bootstrap, and JavaScript.</p>
+          <h4>Frontend Web Pages Development</h4>
+          <p>I specialize in building responsive and user-friendly web interfaces using HTML, CSS, JavaScript, and Bootstrap. I am enhancing my skills to create visually engaging websites.</p>
           <a href="#" class="btn btn-outline-info"><i class="fa fa-eye"></i> View Project</a>
         </div>
       </div>
@@ -320,11 +306,25 @@
  &nbsp;
  &nbsp;
  
-   <h2>Contact Me</h2>
-    <p><i class="fa fa-envelope"></i> guttasaiprasanna7485@gmail.com</p>
-    <p><i class="fa fa-phone"></i> +91-9000462575</p>
-    <p><i class="fa fa-map-marker-alt"></i> Andhra Pradesh, 517520</p>
-    <p><i class="fa-brands fa-linkedin"></i> <a href="https://www.linkedin.com/in/saiprasannagutta7485" style="color:#7f5af0; text-decoration:underline;">LinkedIn Profile</a></p>
+   <h2 class="mt-5">Contact Me</h2>
+<div class="contact-container mt-4" style="flex-wrap: nowrap; gap: 40px;">
+  <div class="contact-box">
+    <i class="fa fa-envelope"></i><br>
+    <p>guttasaiprasanna7485@gmail.com</p>
+  </div>
+  <div class="contact-box">
+    <i class="fa fa-phone"></i>
+    <p>+91-9000462575</p>
+  </div>
+  <div class="contact-box">
+    <i class="fa fa-map-marker-alt"></i>
+    <p>Andhra Pradesh, 517520</p>
+  </div>
+  <div class="contact-box">
+    <i class="fab fa-linkedin"></i><br>
+    <a href="https://www.linkedin.com/in/saiprasannagutta7485/">LinkedIn Profile</a>
+  </div>
+</div>
  </section>
    
   <footer>
